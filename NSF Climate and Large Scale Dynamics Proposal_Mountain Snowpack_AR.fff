@@ -1,8 +1,0 @@
-\begin{figure}
-  \begin{center}
-  \includegraphics[width=0.75\textwidth]{14kmand28kmgrids}
-  \caption{\label{f1}The two Variable Resolution Global Climate Model (VRGCM) grids (14km, left, and 28km, right) implemented into the Community Earth System Model (CESM) for this study.  Both grids base resolution are 1$^{o}$ cubed-sphere.  Over the western USA, a halving of resolution in each distinct domain region occurs with the inner most domain featuring a 14km resolution (left) and 28km resolution (right).}
-  \end{center}
-\end{figure}
-\efloatseparator
- 
