@@ -1,0 +1,198 @@
+\begin{thebibliography}{33}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\renewcommand{\UrlFont}{\rmfamily}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{{ National Center for Atmospheric Research (NCAR)}(cited
+  2014)}]{NCAR2009}
+{ National Center for Atmospheric Research (NCAR)}, cited 2014: {National
+  Center for Atmospheric Research 2009-2014 Strategic Plan. Technical Report.}
+  [Available online at
+  \url{http://ncar.ucar.edu/documents/strategic-plan/2009/}].
+
+\bibitem[{Anderson(1976)}]{anderson1976point}
+Anderson, E.~A., 1976: A point of energy and mass balance model of snow cover.
+  \textit{NOAA Tech. Rep. NWS}, \textbf{19}, 1--150.
+
+\bibitem[{Barnett et~al.(2005)Barnett, Adam,, and
+  Lettenmaier}]{barnett2005potential}
+Barnett, T.~P., J.~C. Adam, and D.~P. Lettenmaier, 2005: Potential impacts of a
+  warming climate on water availability in snow-dominated regions.
+  \textit{Nature}, \textbf{438~(7066)}, 303--309.
+
+\bibitem[{Brown et~al.(2003)Brown, Brasnett,, and Robinson}]{brown2003gridded}
+Brown, R.~D., B.~Brasnett, and D.~Robinson, 2003: Gridded north american
+  monthly snow depth and snow water equivalent for gcm evaluation.
+  \textit{Atmosphere-Ocean}, \textbf{41}, 1--14.
+
+\bibitem[{Brown and Mote(2009)Brown, and Mote}]{brownandmote2009}
+Brown, R.~D., and P.~W. Mote, 2009: The response of northern hemisphere snow
+  cover to a changing climate*. \textit{Journal of Climate}, \textbf{22},
+  2124--2145.
+
+\bibitem[{Cayan(1996)}]{cayan1996interannual}
+Cayan, D.~R., 1996: Interannual climate variability and snowpack in the western
+  united states. \textit{Journal of Climate}, \textbf{9}, 928--948.
+
+\bibitem[{Collins et~al.(2013)Collins, Johansen, McCorquodale, Colella,, and
+  Ullrich}]{collins2013nonhydrostatic}
+Collins, W., H.~Johansen, P.~McCorquodale, P.~Colella, and P.~Ullrich, 2013:
+  Nonhydrostatic adaptive mesh dynamics for multiscale climate models.
+  \textit{AGU Fall Meeting Abstracts}, Vol.~1, 03.
+
+\bibitem[{Dettinger and Cayan(1995)Dettinger, and Cayan}]{dettinger1995large}
+Dettinger, M.~D., and D.~R. Cayan, 1995: Large-scale atmospheric forcing of
+  recent trends toward early snowmelt runoff in california. \textit{Journal of
+  Climate}, \textbf{8}, 606--623.
+
+\bibitem[{Dyer and Mote(2006)Dyer, and Mote}]{dyer2006spatial}
+Dyer, J.~L., and T.~L. Mote, 2006: Spatial variability and trends in observed
+  snow depth over north america. \textit{Geophysical Research Letters},
+  \textbf{33}.
+
+\bibitem[{Essery et~al.(2009)}]{rutter2009SnowMIP2}
+Essery, R., and Coauthors, 2009: Snowmip2: An evaluation of forest snow process
+  simulations. \textit{Bulletin of the American Meteorological Society},
+  \textbf{90}, 1120--1135.
+
+\bibitem[{Fournier et~al.(2004)Fournier, Taylor,, and
+  Tribbia}]{fournier2004spectral}
+Fournier, A., M.~A. Taylor, and J.~J. Tribbia, 2004: The spectral element
+  atmosphere model (seam): High-resolution parallel computation and localized
+  resolution of regional dynamics. \textit{Monthly Weather Review},
+  \textbf{132~(3)}, 726--748.
+
+\bibitem[{Hurrell et~al.(2013)}]{hurrell2013community}
+Hurrell, J.~W., and Coauthors, 2013: The community earth system model: a
+  framework for collaborative research. \textit{Bulletin of the American
+  Meteorological Society}, \textbf{94~(9)}, 1339--1360.
+
+\bibitem[{Jordan(1991)}]{jordan1991one}
+Jordan, R., 1991: A one-dimensional temperature model for a snow cover:
+  Technical documentation for sntherm. 89. Tech. rep., DTIC Document.
+
+\bibitem[{Knowles et~al.(2006)Knowles, Dettinger,, and
+  Cayan}]{knowles2006trends}
+Knowles, N., M.~D. Dettinger, and D.~R. Cayan, 2006: Trends in snowfall versus
+  rainfall in the western united states. \textit{Journal of Climate},
+  \textbf{19}, 4545--4559.
+
+\bibitem[{Lawrence et~al.(2011)}]{lawrence2011parameterization}
+Lawrence, D.~M., and Coauthors, 2011: Parameterization improvements and
+  functional and structural advances in version 4 of the community land model.
+  \textit{Journal of Advances in Modeling Earth Systems}, \textbf{3}.
+
+\bibitem[{Maurer et~al.(2007)Maurer, Stewart, Bonfils, Duffy,, and
+  Cayan}]{maurer2007detection}
+Maurer, E., I.~Stewart, C.~Bonfils, P.~Duffy, and D.~Cayan, 2007: Detection,
+  attribution, and sensitivity of trends toward earlier streamflow in the
+  sierra nevada. \textit{Journal of Geophysical Research: Atmospheres},
+  \textbf{112}.
+
+\bibitem[{Mesinger et~al.(2006)}]{mesinger2006north}
+Mesinger, F., and Coauthors, 2006: North american regional reanalysis.
+  \textit{Bulletin of the American Meteorological Society}, \textbf{87},
+  343--360.
+
+\bibitem[{Michalakes et~al.(2001)Michalakes, Chen, Dudhia, Hart, Klemp,
+  Middlecoff,, and Skamarock}]{michalakes2001development}
+Michalakes, J., S.~Chen, J.~Dudhia, L.~Hart, J.~Klemp, J.~Middlecoff, and
+  W.~Skamarock, 2001: Development of a next generation regional weather
+  research and forecast model. \textit{Developments in Teracomputing:
+  Proceedings of the Ninth ECMWF Workshop on the use of high performance
+  computing in meteorology}, World Scientific, Vol.~1, 269--276.
+
+\bibitem[{Mote et~al.(2005)Mote, Hamlet, Clark,, and
+  Lettenmaier}]{mote_declining_2005}
+Mote, P.~W., A.~F. Hamlet, M.~P. Clark, and D.~P. Lettenmaier, 2005:
+  {DECLINING} {MOUNTAIN} {SNOWPACK} {IN} {WESTERN} {NORTH} {AMERICA}*.
+  \textit{Bulletin of the American Meteorological Society}, \textbf{86},
+  39--49.
+
+\bibitem[{Saha et~al.(2014)}]{saha2014ncep}
+Saha, S., and Coauthors, 2014: The ncep climate forecast system version 2.
+  \textit{Journal of Climate}, \textbf{27}, 2185--2208.
+
+\bibitem[{Salomonson and Appel(2006)Salomonson, and
+  Appel}]{salomonson2006development}
+Salomonson, V., and I.~Appel, 2006: Development of the aqua modis ndsi
+  fractional snow cover algorithm and validation results. \textit{Geoscience
+  and Remote Sensing, IEEE Transactions on}, \textbf{44~(7)}, 1747--1756.
+
+\bibitem[{Schulzweida et~al.(2007)Schulzweida, Kornblueh,, and
+  Quast}]{schulzweida2007cdo}
+Schulzweida, U., L.~Kornblueh, and R.~Quast, 2007: Cdo user’s guide--climate
+  data operators. Tech. rep., Version 1.0. 7, Tech. rep., online available at:
+  www. mpimet. mpg. de/fileadmin/software/cdo.
+
+\bibitem[{Serreze et~al.(1999)Serreze, Clark, Armstrong, McGinnis,, and
+  Pulwarty}]{serreze1999characteristics}
+Serreze, M.~C., M.~P. Clark, R.~L. Armstrong, D.~A. McGinnis, and R.~S.
+  Pulwarty, 1999: Characteristics of the western united states snowpack from
+  snowpack telemetry (snotel) data. \textit{Water Resources Research},
+  \textbf{35}, 2145--2160.
+
+\bibitem[{Stewart(2009)}]{stewart2009changes}
+Stewart, I.~T., 2009: Changes in snowpack and snowmelt runoff for key mountain
+  regions. \textit{Hydrological Processes}, \textbf{23}, 78--94.
+
+\bibitem[{Taylor and Fournier(2010)Taylor, and Fournier}]{taylor2010compatible}
+Taylor, M.~A., and A.~Fournier, 2010: A compatible and conservative spectral
+  element method on unstructured grids. \textit{Journal of Computational
+  Physics}, \textbf{229~(17)}, 5879--5895.
+
+\bibitem[{Thornton et~al.(2012)Thornton, Thornton, Mayer, Wilhelmi, Wei,
+  Devarakonda,, and Cook}]{thornton2012daymet}
+Thornton, P.~E., M.~M. Thornton, B.~W. Mayer, N.~Wilhelmi, Y.~Wei,
+  R.~Devarakonda, and R.~Cook, 2012: Daymet: Daily surface weather on a 1 km
+  grid for north america, 1980-2008. \textit{Oak Ridge National Laboratory
+  (ORNL) Distributed Active Archive Center for Biogeochemical Dynamics (DAAC)},
+  \textbf{1}.
+
+\bibitem[{Ullrich and Jablonowski(2012{\natexlab{a}})Ullrich, and
+  Jablonowski}]{ullrich2012operator}
+Ullrich, P., and C.~Jablonowski, 2012{\natexlab{a}}: Operator-split
+  runge-kutta-rosenbrock methods for nonhydrostatic atmospheric models.
+  \textit{Monthly Weather Review}, \textbf{140~(4)}, 1257--1284.
+
+\bibitem[{Ullrich and Jablonowski(2012{\natexlab{b}})Ullrich, and
+  Jablonowski}]{ullrich2012mcore}
+Ullrich, P.~A., and C.~Jablonowski, 2012{\natexlab{b}}: Mcore: A
+  non-hydrostatic atmospheric dynamical core utilizing high-order finite-volume
+  methods. \textit{Journal of Computational Physics}, \textbf{231~(15)},
+  5078--5108.
+
+\bibitem[{Ullrich et~al.(2010)Ullrich, Jablonowski,, and
+  Van~Leer}]{ullrich2010high}
+Ullrich, P.~A., C.~Jablonowski, and B.~Van~Leer, 2010: High-order finite-volume
+  methods for the shallow-water equations on the sphere. \textit{Journal of
+  Computational Physics}, \textbf{229~(17)}, 6104--6134.
+
+\bibitem[{Williams et~al.(2009)}]{williams2009earth}
+Williams, D.~N., and Coauthors, 2009: The earth system grid: Enabling access to
+  multimodel climate simulation data. \textit{Bulletin of the American
+  Meteorological Society}, \textbf{90}, 195--205.
+
+\bibitem[{Yongjiu and Qingcun(1997)Yongjiu, and Qingcun}]{yongjiu1997land}
+Yongjiu, D., and Z.~Qingcun, 1997: A land surface model (iap94) for climate
+  studies part i: formulation and validation in off-line experiments.
+  \textit{Advances in Atmospheric Sciences}, \textbf{14}, 433--460.
+
+\bibitem[{Zarzycki et~al.(2014)Zarzycki, Jablonowski,, and
+  Taylor}]{zarzycki2014using}
+Zarzycki, C.~M., C.~Jablonowski, and M.~A. Taylor, 2014: Using
+  variable-resolution meshes to model tropical cyclones in the community
+  atmosphere model. \textit{Monthly Weather Review}, \textbf{142~(3)},
+  1221--1239.
+
+\bibitem[{Zender(2006)}]{zender2006netcdf}
+Zender, C., 2006: netcdf operators (nco) for analysis of self-describing
+  gridded geoscience data. \textit{Submitted to Environ. Modell. Softw}.
+
+\end{thebibliography}
