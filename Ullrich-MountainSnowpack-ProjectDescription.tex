@@ -77,7 +77,7 @@ The key \textbf{scientific questions} that will be addressed by this proposal ar
 \vspace{-0.4cm}
 To address these hypotheses, the following \textbf{research plan} will be pursued:
 \begin{itemize}
-\item[(T1)] Validate and evaluate the capability of VRGCMs \textbf{Community Earth System Model (CESM)} and the \textbf{Model for Prediction Across Scales (MPAS)} to represent mountain snowpack at different spatial resolutions, with different physical parameterizations and under different tunings.  For comparison, we will also assess the widely-used \textbf{Weather Research and Forecasting (WRF)} regional model, and uniform resolution CESM model simulations.
+\item[(T1)] Validate and evaluate the capability of the VRGCM \textbf{Community Earth System Model (CESM)} to represent mountain snowpack at different spatial resolutions, with different physical parameterizations and under different tunings.  For comparison, we will also assess the widely-used \textbf{Weather Research and Forecasting (WRF)} regional model, and uniform resolution CESM model simulations.
 \item[(T2)] Analyze the capability of the \textbf{Community Land Model (CLM)} to represent snowpack at SNOTEL station locations using both observed meteorology and interpolated VRGCM meteorology.
 \item[(T3)] Use VRGCMs to assess \textbf{changes in the quantity and distribution of mountain snowpack} in response to changes in atmospheric greenhouse gas concentrations prescribed by the suite of Relative Concentration Pathways (RCPs).
 \item[(T4)] Detect and characterize \textbf{atmospheric river events} in variable-resolution simulations in terms of total over-land precipitation, total accumulated snowfall and position of landfall.
@@ -189,16 +189,16 @@ Two of the meshes that we will use are depicted in Figure \ref{fig:CESMVarResMes
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.6\textwidth]{VariableResolutionPrecipitation.png}
+\includegraphics[width=0.7\textwidth]{VariableResolutionPrecipitation.png}
 \end{center}
 \caption{Average daily DJF precipitation over California from (Top Row) three variable-resolution model runs at 1 degree (110km), 28 km and 14km over a 7-year period and (Bottom Row) NARR (reanalysis), UW (gridded) and PRISM (gridded) datasets over the same period.} \label{fig:VarResPrecipitation}
 \end{figure}
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.6\textwidth]{VariableResolutionSWE.png}
+\includegraphics[width=\textwidth]{VariableResolutionSWE2.png}
 \end{center}
-\caption{Average daily DJF Snow Water Equivalent (SWE) over California from (Top Row) three variable-resolution model runs at 1 degree (110km), 28 km and 14km over a 7-year period and (Bottom Row) NCEP (gridded) and DAYMET (gridded) datasets over the same period.} \label{fig:VarResSWE}
+\caption{Average daily DJF Snow Water Equivalent (SWE) over the Western USA from (Left to Right) three variable-resolution model runs at 1 degree (110km), 28 km and 14km over a 7-year period, NCEP (gridded) and DAYMET (gridded) datasets over the same period.  The significant variation in the quality of snow products is apparent in the clear differences between the NCEP and DAYMET results.} \label{fig:VarResSWE}
 \end{figure}
 
 As shown by the most recent snow model intercomparison project (SnowMIP2), a comprehensive assessment of 33 snow models with varying complexity and intended development purpose, no model was shown to perform best across a range of discrete locations in the Northern Hemisphere \citep{rutter2009SnowMIP2}.  Further complications arose in the intercomparison project when canopy interactions were assessed as models performed differently with vegetated and non-vegetated environments.  \citet{rutter2009SnowMIP2} found that a key indicator of more optimal performance in a snow model is its ability to characterize vegetation cover, winter temperature characterization, and performance across a multitude of variables (e.g. snow cover, snow depth, and snow water equivalent).
@@ -209,12 +209,12 @@ As discussed previously, PFT types and percent cover of PFTs within each vegetat
 
 The parameterizations of snowpack within CESM are based primarily on work done by \citet{anderson1976point}, \citet{jordan1991one}, and \citet{yongjiu1997land}. These parameterizations characterize several important state variables for snowpack including: the mass of water, mass of ice, snowpack layer thickness, temperature profile of the snowpack layer, black carbon and mineral deposition, and snowpack aging and optical properties \citep{lawrence2011parameterization}. Through the characterization of these state variables, in numerically discretized equations, a five layer snow model with dynamic compaction, water transfer, and energy transfer was created \citep{lawrence2011parameterization}, the SNow and Ice Aerosol Radiation (SNICAR) model.  The SNICAR model replaced the CLM3 snow model which was used in the SnowMIP2 intercomparison project.  This has resulted in a much more complete representation of snowpack, and its tendencies, than its predecessor used in SnowMIP2.
 
-\begin{wrapfigure}{r}{2.5in}
-\centering\includegraphics[width=2.2in]{RinglerGrid.png}
-\caption{A conformal icosahedral-Voronoi stretched grid used in the MPAS model.} \label{fig:MPAS-AdaptedGrid}
-\end{wrapfigure}
+%\begin{wrapfigure}{r}{2.5in}
+%\centering\includegraphics[width=2.2in]{RinglerGrid.png}
+%\caption{A conformal icosahedral-Voronoi stretched grid used in the MPAS model.} \label{fig:MPAS-AdaptedGrid}
+%\end{wrapfigure}
 
-In order to cross-validate our variable-resolution simulations, we will also investigate the use of the MPAS model \citep{skamarock2012mpas} for modeling California snowpack.  MPAS is a recently developed multi-resolution dynamical core and ocean model which uses a centroidal Voronoi mesh consisting of hexagons and pentagons and a smooth transition between regions of coarse and fine resolution.  The Voronoi mesh has the advantage of maximizing uniformity of elements across the globe and preserving scalability on massively parallel machines.  Further, this model has been developed using a novel approach \citep{JTTDRWCSJBK2009JCP} which is effective at maintaining geostrophic balance and preserves the desirable properties of atmospheric waves.  This model has the additional advantage of being built upon the substantial experience that went into the development of the WRF model.  A depiction of the smoothly varying grid used by the MPAS model is shown in Figure \ref{fig:MPAS-AdaptedGrid}.
+%In order to cross-validate our variable-resolution simulations, we will also investigate the use of the MPAS model \citep{skamarock2012mpas} for modeling California snowpack.  MPAS is a recently developed multi-resolution dynamical core and ocean model which uses a centroidal Voronoi mesh consisting of hexagons and pentagons and a smooth transition between regions of coarse and fine resolution.  The Voronoi mesh has the advantage of maximizing uniformity of elements across the globe and preserving scalability on massively parallel machines.  Further, this model has been developed using a novel approach \citep{JTTDRWCSJBK2009JCP} which is effective at maintaining geostrophic balance and preserves the desirable properties of atmospheric waves.  This model has the additional advantage of being built upon the substantial experience that went into the development of the WRF model.  A depiction of the smoothly varying grid used by the MPAS model is shown in Figure \ref{fig:MPAS-AdaptedGrid}.
 
 \subsection{Research Tasks}
 
@@ -241,7 +241,7 @@ These model outputs will then be compared over the simulation period with all of
 
 \subsubsection{(T1) VRGCM assessment simulations (1980-2005) and tuning}
 
-An analogous approach to section 1.4.1 will now be applied  for  the  CESM  (CAM-SE and CLM4.0) and MPAS using built-in support for variable-resolutions.  Specifically, these models will be run with a 100km base resolution refined to 14km and 28km regional resolution. For the CESM model a multi-level refined grid, shown in Figure \ref{fig:CESMVarResMeshes}, will be used with three levels of refinement from a background 110km (1$^{o}$) resolution. The region of high resolution will be chosen to closely correspond to the region of refinement for the WRF model.  Sensitivity of the model to topographic smoothing and choice of convective scheme will be assessed.  %One experiment will also examine whether simulation results can be improved by nudging towards the reanalysis data over the duration of the integration.
+An analogous approach to section 1.4.1 will now be applied  for  the  CESM  (CAM-SE and CLM4.0) using built-in support for variable-resolutions.  Specifically, these models will be run with a 100km base resolution refined to 14km and 28km regional resolution. For the CESM model a multi-level refined grid, shown in Figure \ref{fig:CESMVarResMeshes}, will be used with three levels of refinement from a background 110km (1$^{o}$) resolution. The region of high resolution will be chosen to closely correspond to the region of refinement for the WRF model.  Sensitivity of the model to topographic smoothing and choice of convective scheme will be assessed.  %One experiment will also examine whether simulation results can be improved by nudging towards the reanalysis data over the duration of the integration.
 
 Again the assessment period will be 1980-2005, and both models will be driven using global prescribed SSTs (in correspondence with the AMIP protocol).  At least three ensemble members will be used for this assessment. Model results will be compared over the 1980-2005 time frame with snowpack observational products. Further, results from the VRGCMs will be compared against the ensemble WRF simulations. This procedure will again allow quantification of biases associated with the VRGCMs and if any additional tuning is required to produce more realistic simulation results.  Specifically, topographical smoothness has been identified as one substantial source of uncertainty in these simulations, especially for the purposes of computing statistics related to snowpack (Figure \ref{f3}).
 
@@ -253,7 +253,7 @@ Using the ensemble of model simulations, snowpack information (seasonally averag
 
 \subsubsection{(T2) Analysis of the Community Land Model}
 
-SNOTEL stations are perhaps the most reliable resource for mountain snowpack measurements, but their distribution and altitude is not representative of the element-averaged values provided by model simulations.  Nonetheless, as a column model, CLM is theoretically capable of assessing snowpack at pointwise locations when driven by model meteorology.  Consequently, towards the goal of evaluating the capability of the model to match observational data, this proposal will assess the ability of CLM to match SNOTEL measurements over the validation period (1980-2005) when driven by both observed meteorology and interpolated meteorology from variable-resolution simulations.  Mean snow depth and SWE will be assessed.  {\color{red} More here from Mark Flanner?}
+SNOTEL stations are perhaps the most reliable resource for mountain snowpack measurements, but their distribution and altitude is not representative of the element-averaged values provided by model simulations.  Nonetheless, as a column model, CLM is theoretically capable of assessing snowpack at pointwise locations when driven by model meteorology.  Consequently, towards the goal of evaluating the capability of the model to match observational data, this proposal will assess the ability of CLM to match SNOTEL measurements over the validation period (1980-2005) when driven by both observed meteorology and interpolated meteorology from variable-resolution simulations.  Mean snow depth and SWE will be assessed.  {\color{red} [More here from Mark Flanner?]}
 
 \subsubsection{(T3) VRGCM Predictive Simulations (2040-2060 and 2080-2100)}
 
@@ -304,21 +304,23 @@ PI Ullrich will be the primary administrator for the project, and will be respon
 \begin{tabularx}{\textwidth}{cX}
 \hline
 \textbf{Year 1} & $\cdot$ Intercomparison of metrics for snowpack \\
-& $\cdot$ WRF, CESM and MPAS validation period ensemble simulations \\
+& $\cdot$ WRF and CESM validation period ensemble simulations \\
 & $\cdot$ Analysis of validation period ensemble simulations \\
 \hline
 \textbf{Year 2} & $\cdot$ Analysis of reproducibility of SNOTEL results from CLM \\
-& $\cdot$ CESM and MPAS future simulations (RCP) \\
-& $\cdot$ Initial analysis of future simulations (RCP) \\
+& $\cdot$ CESM future simulations (RCP4.5 and 8.5) \\
+& $\cdot$ Initial analysis of future simulations (RCP4.5 and 8.5) \\
 \hline
 \textbf{Year 3} & $\cdot$ Detection and characterization of atmospheric rivers \\
 & $\cdot$ Final analysis and report of project conclusions \\
 \hline
 \end{tabularx}
 
-We expect results and research progress will be presented at regular scientific meetings, including meetings of the American Geophysical Union (AGU) and the American Meteorological Society (AMS). This work will also be presented at the CESM annual working group meeting and CESM atmospheric working group meeting. We further anticipate that we will publish at least one peer-reviewed article in each year.
+We expect results and research progress will be presented at regular scientific meetings, including meetings of the American Geophysical Union (AGU) and the American Meteorological Society (AMS). This work will also be presented at the CESM annual working group meeting and CESM atmospheric working group meeting. We further anticipate that we will publish at least one peer-reviewed article for each year of the project duration.
 
 \subsubsection{Prior NSF Support}
+
+{\color{red}[From Shu-Hua]}
 
 \bibliographystyle{ametsoc2014}  
 {\setbox0\vbox{\bibliography{MountainSnowpack}}}
