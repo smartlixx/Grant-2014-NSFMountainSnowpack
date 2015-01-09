@@ -1,0 +1,63 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{natbib}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{setspace}
+
+\oddsidemargin 0cm
+\evensidemargin 0cm
+
+\usepackage[margin=1in]{geometry}
+
+\parindent 0cm
+\parskip 0.5cm
+
+\usepackage{fancyhdr}
+\pagestyle{plain}
+%\fancyhf{}
+%\fancyhead[L]{AOSS Reference Sheet}
+%\fancyhead[CH]{test}
+\fancyfoot[C]{Page \thepage}
+
+\newcommand{\vb}{\mathbf}
+\newcommand{\diff}[2]{\frac{d #1}{d #2}}
+\newcommand{\diffsq}[2]{\frac{d^2 #1}{{d #2}^2}}
+\newcommand{\pdiff}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\pdiffsq}[2]{\frac{\partial^2 #1}{{\partial #2}^2}}
+\newcommand{\topic}{\textbf}
+\newcommand{\arcsinh}{\mathrm{arcsinh}}
+\newcommand{\arccosh}{\mathrm{arccosh}}
+\newcommand{\arctanh}{\mathrm{arctanh}}
+
+\begin{document}
+
+\appendix
+
+\addtocounter{section}{1}
+
+\section{Project Summary}
+\vspace{-0.2cm}
+
+Regional climate change is particularly important to California, one of the most environmentally and agriculturally diverse regions in the world. With around two-thirds of California's developed water supply originating from the Sierra Nevada, there is growing concern that climate change will directly alter this natural reservoir of water.  The primary source of freshwater from this region comes in the form of winter snowpack.  As global temperatures rise, snowpack is expected to decline dramatically and melt earlier in the season.  These two factors will assuredly stem late summer water flow that is integral to maintaining agricultural, environmental, and municipal water needs.  Modeling snowpack accurately requires the need for high model resolution to represent large-scale and convective snow systems, topography (with resulting orographic forcing and snow line representation), and the overall fractal nature of snow cover extent and depth.
+
+The central objective of this work is to better understand how climate change will affect water resources in California and the western USA, specifically water associated with mountain snowpack.  We postulate that although global climate change will not lead to a significant change in total precipitation throughout the western states, this region will see shifts in precipitation storage due to changes in precipitation timing, spatial distribution and type, with a steady decline in winter snowpack, especially in lower elevation basins.  The magnitude and extent of these changes remains a key question.  In order to address this issue, our work proposes the use of \textbf{variable-resolution functionality} in the Community Earth System Model (CESM) to reach regional grid resolutions of 14km and 28km.  Model simulations covering the period 1980-2005, 2040-2060 and 2080-2100 will be used to evaluate the model representation of snowpack and predict future changes in snowpack spatial extent and depth.  Pointwise land model simulations at SNOTEL station locations driven by the high-resolution meteorology will be used to evaluate the model's capacity to correctly model snowpack in high-altitude regions.  Finally, a detection and characterization algorithm will be employed to understand if the spatial pattern of atmospheric river events, which are responsible for 30\%-40\% of snow water, will change under anticipated future change to global circulation.
+
+\vspace{-0.7cm}
+\subsection*{Intellectual Merit}
+\vspace{-0.5cm}
+
+This work sits at the boundary of the atmospheric, hydrologic and computer sciences.  To date, the climate modeling community has largely been forced to work within one of two scientific paradigms, global climate modeling or regional climate modeling.  Each method has its own unique benefits as well as its own major physical assumptions, computer hardware limitations and model biases.  The proposed research aims to pursue the hybrid avenue of \textbf{variable-resolution global climate modeling (VRGCM)}.  This will be one of the first studies that uses the VRGCM technique to address real scientific questions and the first to use the new variable-resolution capability of the Community Earth System Model to address questions in hydroclimatology.  An expected outcome of our proposed research will be a new toolset for assessing the reliability and scientific value of high-resolution and variable-resolution modeling systems. 
+
+
+\vspace{-0.7cm}
+\subsection*{Broader Impacts}
+\vspace{-0.5cm}
+
+This work has the potential to greatly increase our capacity to predict future trends in mountain snowpack, with clear consequences for agricultural, municipal and ecological management.  Our evaluation of snowpack trends will be informative to policymakers and stakeholders at both the national and regional level.  This proposal will make a concerted effort towards making climate model tools and data more accessible for agency managers and decision makers alike.
+
+\end{document}
